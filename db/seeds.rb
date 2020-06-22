@@ -5,3 +5,20 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+photos = Photo.create([
+    {
+        title: 'first title',
+        image: 'image1.png',
+        description: 'A modelling shoot'
+    },
+    {
+        title: 'second title',
+        image: 'image2.png',
+        description: 'A modelling shoot'
+    },
+    {
+        title: 'third title',
+        image: 'image3.png',
+        description: 'A modelling shoot'
+    },
+])
